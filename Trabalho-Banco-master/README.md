@@ -1,5 +1,5 @@
 # Trabalho-Banco
-### https://iago-santos-sousa.github.io/Trabalho-Banco/
+### https://github.com/mariogE100/Trabalho-Banco-Master/edit/main/Trabalho-Banco-master
 
 ### Funcionalidades do trabalho:
 1. Registrar usuário(fazer login);
