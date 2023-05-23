@@ -1,0 +1,24 @@
+.nav-link {
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: underline;
+  /* font-weight: bold; */
+  /* border-bottom: 1px solid white; */
+}
+
+#meuCarrossel {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0.5px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: black;
+  border-radius: 50%;
+}
