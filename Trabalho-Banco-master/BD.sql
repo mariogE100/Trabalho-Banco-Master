@@ -14,7 +14,7 @@ CREATE TABLE receitas (
     id INT(11) NOT NULL AUTO_INCREMENT,
     nome VARCHAR(255) NOT NULL,
     tempo_de_preparo INT(11) NOT NULL,
-    modo_de_preparo TEXT NOT NULL,
+    modo_preparo TEXT NOT NULL,
     PRIMARY KEY (id)
 );
 
@@ -39,7 +39,7 @@ CREATE TABLE receitas_ingredientes (
     id_ingrediente INT(11) NOT NULL,
     id_quantidade INT(11) NOT NULL,
     PRIMARY KEY (id),
-    PRIMARY KEY (id_usuario) REFERENCES usuario (id),
+    FOREIGN KEY (id_usuario) REFERENCES usuario (id),
     FOREIGN KEY (id_receita) REFERENCES receitas(id),
     FOREIGN KEY (id_ingrediente) REFERENCES ingredientes(id),
     FOREIGN KEY (id_quantidade) REFERENCES quantidades(id)
